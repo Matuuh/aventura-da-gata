@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da gata perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Depois de um longo dia de trabalho, ao voltar para casa, percebo que minha gata Pandora não está mais me esperando na frente da porta... O que fazer?</p>
+            <button class="btn-proximo" data-proximo="1">procurá-la no quarto</button>
+            <button class="btn-proximo" data-proximo="2">procurá-la na cozinha</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você vai para o seu quarto e vê apenas a mesma bagunça de sempre, sem nenhum sinal dela.</p>
+            <button class="btn-proximo" data-proximo="3">olhar debaixo da cama</button>
+            <button class="btn-proximo" data-proximo="4">procurar no banheiro</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Na cozinha, você vê apenas uma louça para lavar e nenhum sinal dela, exceto por uma bola de pelos.</p>
+            <button class="btn-proximo" data-proximo="5">lavar a louça</button>
+            <button class="btn-proximo" data-proximo="6">varrer o chão</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ao olhar debaixo da cama, você vê uma gata preta que com certeza não é a Pandora.</p>
+            <button class="btn-proximo" data-proximo="4">procurar no banheiro</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Tem um gato dentro do box do banheiro, e tenho certeza de que não é a Pandora...</p>
+            <button class="btn-proximo" data-proximo="0">voltar</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Depois de lavar a louça, você pensa que seria bom atrair Pandora com comida.</p>
+            <button class="btn-proximo" data-proximo="7">Pegar a ração de gata</button>
+            <button class="btn-proximo" data-proximo="8">chamar ela "pspsps"</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Depois de varrer o chão, você percebe que o pratinho de comida da Pandora está vazio.</p>
+            <button class="btn-proximo" data-proximo="7">Pegar a ração de gata</button>
+            <button class="btn-proximo" data-proximo="8">chamar ela "pspsps"</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Quando você pega o pote de ração, ele ecoa um som tão alto que um verdadeiro tsunami de gatos invade a cozinha, levando você junto. E, ainda assim, nenhum sinal da Pandora.</p>
+            <button class="btn-proximo" data-proximo="6">voltar</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Pandora aperece com muita alegria e vai em sua direção pedindo comida</p>
+            <button class="btn-proximo" data-proximo="9">Dar comida</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Parabéns! Agora, Pandora continuará engordando e, no final, ela irá dominar o mundo.
+                FIM
+            </p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
